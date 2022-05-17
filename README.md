@@ -44,3 +44,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Ben's notes
+
+### Styles
+I am using Tailwind CSS. Here is a guide that I used to configure it with this project:
+https://tailwindcss.com/docs/guides/create-react-app
+
+
+### Custom Domain and DNS
+Well, DNS and networking always prove to be a source of complication. I have decided
+to run the website on [AWS Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html)
+because it was dead simple to configure CICD and deploy the website to the web,
+but now setting up a custom domain is proving to be complicated with Google Domains.
+When I am ready to publish the site, check out these docs:
+1. https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-google-domains.html
+2. https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/migrate-dns-domain-in-use.html
