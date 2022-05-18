@@ -48,8 +48,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Ben's notes
 
 ### Styles
-I am using Tailwind CSS. Here is a guide that I used to configure it with this project:
-https://tailwindcss.com/docs/guides/create-react-app
+I am using Tailwind CSS.
+
+Tailwind resources:
+- [Using tailwind with create-react-app](https://tailwindcss.com/docs/guides/create-react-app)
+- [Video about grid layout](https://www.youtube.com/watch?v=_r2qB44o_Fs)
 
 
 ### Custom Domain and DNS
