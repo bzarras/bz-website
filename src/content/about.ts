@@ -5,7 +5,9 @@ const title = 'About';
 const body =
 `Hey! I'm Ben Zarras, a Brooklyn-based software engineer with 7 years of experience
 in startups and large tech companies. Currently I am a Senior Software Engineer
-at [SeatGeek](https://seatgeek.com/). Previously I was an Engineering Manager at
+at [SeatGeek](https://seatgeek.com/).
+
+Previously I was an Engineering Manager at
 Capital One, working on new customer-facing mobile banking products. I enjoy building
 and scaling new products that have a positive real-world impact on customers.
 
