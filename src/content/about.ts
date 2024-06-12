@@ -3,7 +3,7 @@ import { Content } from './Content';
 const title = 'About';
 
 const body =
-`Hey! I'm Ben Zarras, a Brooklyn-based software engineer with 7 years of experience
+`Hey! I'm Ben Zarras, a Brooklyn-based software engineer with 9 years of experience
 in startups and large tech companies. Currently I am a Senior Software Engineer
 at [SeatGeek](https://seatgeek.com/).
 
