@@ -4,6 +4,13 @@ const title = 'Projects';
 
 const body =
 `
+## SeatGeek
+Fraud Prevention: I helped SeatGeek modernize their fraud prevention system, saving upwards of $50M annually in fraud losses.
+
+[SeatGeek IQ](https://www.sportsbusinessjournal.com/Native/SeatGeek/2024/September/): I led the integration between SeatGeek's existing AI pricing
+system and its enterprise box office product, enabling real-time seat-level price updates for box office inventory. SeatGeek rolled this out to
+enterprise clients as SeatGeek IQ.
+
 ## Capital One
 [Automatic Savings](https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/): I led the backend engineering for Capital One's Automatic
 Savings experience, which allows customers to seamlessly set up savings plans that run in the background.
