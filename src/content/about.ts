@@ -9,7 +9,7 @@ early-stage startup building AI-enabled tools for autoimmune patients and their 
 
 Previously I was a Lead Software Engineer at [SeatGeek](https://seatgeek.com/), where I
 worked on fraud prevention and AI pricing systems. Before that, I was an Engineering Manager at
-Capital One, where I helped launch several new customer-facing mobile banking products. I enjoy building
+[Capital One](https://www.capitalone.com), where I helped launch several new customer-facing mobile banking products. I enjoy building
 and scaling products that have a positive real-world impact on customers.
 
 I have an M.S. in Computer Science from [Georgia Tech](https://omscs.gatech.edu/) and a B.S. in Mechanical Engineering
