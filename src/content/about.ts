@@ -3,7 +3,7 @@ import { Content } from './Content';
 const title = 'About';
 
 const body =
-`Hey! I'm Ben Zarras, a Brooklyn-based software engineer with 10 years of experience
+`Hey! I'm Ben Zarras, a Brooklyn-based software engineer and entrepreneur with 10 years of experience
 in startups and large tech companies. I am Co-Founder & CTO of [Connectome](https://connectome.care), an
 early-stage startup building AI-enabled tools for autoimmune patients and their providers. 
 
