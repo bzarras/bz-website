@@ -13,7 +13,7 @@ Ben Zarras's personal website: a single-page Create React App (react-scripts 5, 
 - `npm test`: Jest in watch mode. For a single non-interactive run: `CI=true npm test`. To run one file: `CI=true npm test -- src/App.test.tsx`.
 - Linting is CRA's built-in ESLint (`react-app` config). It runs as part of `start`/`build`, and there is no separate lint script.
 
-Note: `src/App.test.tsx` is the unmodified CRA boilerplate test (it looks for "learn react"), so it fails against the current app.
+`react-markdown` is ESM-only and CRA's Jest config doesn't transform `node_modules`, so tests that render it must mock it (see `src/App.test.tsx`).
 
 ## Architecture
 
@@ -29,5 +29,3 @@ To edit site copy, change the Markdown in `src/content/`. To add a section, crea
 Styling: Tailwind utility classes go in components. Global element styles for the Markdown output (`h2`, `ul`, `a`) are set with `@apply` in the `@layer base` block of `src/index.css`, because `react-markdown` emits plain elements without classes.
 
 `public/index.html` contains the page `<title>` and the Google Analytics (gtag) snippet.
-
-`react-router-dom` is installed but not used. There is no routing.
