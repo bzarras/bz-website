@@ -1,9 +1,13 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import { contentData } from './contentData';
 
-test('renders learn react link', () => {
+// react-markdown is ESM-only, which CRA's Jest config doesn't transform.
+jest.mock('react-markdown', () => ({ children }: { children: string }) => children);
+
+test('renders a row for each content section', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  for (const content of contentData) {
+    expect(screen.getByText(content.title)).toBeInTheDocument();
+  }
 });
