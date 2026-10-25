@@ -15,8 +15,8 @@ I helped launch several new customer-facing mobile banking products.
 I was also a founding engineer at two startups, SALT and ClearFactr.
 I enjoy building and scaling products that have a positive real-world impact.
 
-I have an M.S. in Computer Science from [Georgia Tech](https://omscs.gatech.edu/) and a B.S. in Mechanical Engineering
-from the [University of Rochester](https://rochester.edu/).
+I have an M.S. in Computer Science from Georgia Tech and a B.S. in Mechanical Engineering
+from the University of Rochester.
 `;
 
 export const aboutContent: Content = { title, body };
